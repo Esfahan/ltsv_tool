@@ -25,7 +25,7 @@ Or install it yourself as:
 - convert logfile
 
 ```
-$ ltsv_tool converter [logfilename]
+$ ltsv_tool convert [logfilename]
 ```
 
 - convert logfile with tailf
