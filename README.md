@@ -23,7 +23,7 @@ Or install it yourself as:
 ## Usage
 
 ```
-$ ltsv_tool converter [logfilename]
+$ ltsv_tool convert [logfilename]
 $ tailf [logfilename] | ltsv_tool
 ```
 

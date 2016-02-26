@@ -18,7 +18,7 @@ module LtsvTool
 
 
     desc 'convert ltsv', 'convert log from ltsv to hash'
-    def converter(logfilename)
+    def convert(logfilename)
       puts LtsvTool.converter(logfilename)
     end
 
