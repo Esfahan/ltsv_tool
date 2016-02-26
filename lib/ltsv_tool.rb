@@ -12,7 +12,7 @@ module LtsvTool
       while true
 
         begin
-          pp Hash[gets.split("\t").map{|f| f.split(":", 2)}]
+          pp parser(gets)
         rescue Interrupt
           exit(0)
         end
