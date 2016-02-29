@@ -9,16 +9,17 @@ It converts logfile from ltsv to hash.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ltsv_tool'
+gem 'ltsv_tool', :git => 'https://github.com/Esfahan/ltsv_tool.git', :branch => 'master'
 ```
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
     $ gem install ltsv_tool
+
 
 ## Usage
 
